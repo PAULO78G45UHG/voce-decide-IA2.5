@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintonia Cósmica | Jornada da IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars-container"></div>
+
+    <main class="app-container">
+        <header class="app-header">
+            <span class="badge">✦ Oráculo Digital ✦</span>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </header>
+
+        <section class="card-mission" id="card-mission">
+            <h1 class="mission-title" id="question-title">Lendo as estrelas...</h1>
+            <p class="mission-description" id="question-description"></p>
+            
+            <div class="options-grid" id="options-grid"></div>
+        </section>
+
+        <section class="card-result hidden" id="card-result">
+            <div class="result-icon">🌌</div>
+            <h2 class="result-title" id="result-profile">Seu Destino Cósmico</h2>
+            <div class="result-text" id="result-text"></div>
+            <button class="btn-restart" onclick="restartMission()">✦ Reiniciar Jornada ✦</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
